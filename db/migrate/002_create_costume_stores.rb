@@ -9,6 +9,7 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.boolean :business?
       t.datetime :opening_time
       t.datetime :closing_time
+      t.datetime :timestamps
     end
   end
 end
